@@ -56,8 +56,6 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.2
       
-    - name: SonarCloud Scan
-      uses: SonarSource/sonarcloud-github-action@v1.8
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, Go, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
